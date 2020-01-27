@@ -1,0 +1,83 @@
+.gear {
+    font-size: 75px;
+    color: rgb(254,99,6);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 225px
+}
+
+.speed {
+    position: relative;
+    height: 300px;
+}
+
+.tachometer {
+    position: relative;
+    height: 300px;
+}
+
+.back {
+    position: relative;
+}
+
+.pin  {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 19%;
+    top: 24%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.bottom {
+    display: flex;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 1920px) {
+    .gear {
+        font-size: 25px;
+        color: rgb(254,99,6);
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 225px
+    }
+    
+    .speed {
+        position: relative;
+        height: 300px;
+    }
+    
+    .tachometer {
+        position: relative;
+        height: 300px;
+    }
+    
+    .back {
+        position: relative;
+    }
+    
+    .pin  {
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        left: 19%;
+        top: 24%;
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .bottom {
+        display: flex;
+        margin-top: auto;
+    }
+  }
